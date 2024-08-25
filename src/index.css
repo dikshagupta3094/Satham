@@ -6,3 +6,26 @@
     font-family: Impact,sans-serif;
     font-weight: 400;
 }
+.box-shadow{
+    box-shadow: rgb(255, 255, 255) -8px -6px 15px 0px, rgba(0, 0, 0, 0.15) 6px 8px 15px 0px;
+}
+
+.text-shadow{
+    text-shadow: 3px 3px #b9e9ed;
+}
+
+.slide-tracker{
+    width:calc(250px*8);
+    animation: scroll 20s linear infinite ;
+}
+.slide-tracker:hover{
+    animation-play-state: paused;
+}
+@keyframes scroll {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc(-250px*4));
+    }
+}
