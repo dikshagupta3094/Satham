@@ -116,7 +116,7 @@ function HomeLayout({ children }) {
       {/* Navbar */}
       <div className="border  border-gray-400 "></div>
 
-      <div className="hidden md:flex items-center justify-evenly  bg-sky-600 py-4  text-white font-semibold lg:text-xl sm:sm:text-[15px] w-full sticky top-0">
+      <div className="hidden md:flex items-center justify-evenly  bg-sky-600 py-4  text-white font-semibold lg:text-xl sm:sm:text-[15px] w-full  sticky top-0 z-10">
         <NavLink to="/" className="hover:underline">
           Home
         </NavLink>
@@ -148,6 +148,7 @@ function HomeLayout({ children }) {
           open={open}
           style={{
             backgroundColor: "transparent",
+            color:'#0707f7',
             boxShadow: "none",
             opacity: "initial",
           }}
