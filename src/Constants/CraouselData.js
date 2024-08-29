@@ -1,26 +1,29 @@
-import { Key } from "@mui/icons-material";
-import image from "../assets/image.png";
-import image2 from "../assets/image2.jpg";
 
+import image from "../assets/Crasouel/image.png";
+import image2 from "../assets/Crasouel/image2.jpg";
+import BBA from "../assets/Crasouel/BBA.jpg";
+import ATC from "../assets/Crasouel/ATC.jpg";
+import PilotImage from "../assets/Crasouel/PilotImage.jpg";
+import CabinCrew from "../assets/Crasouel/CabinCrew.webp";
 export const Images = [
   {
-    image: image,
+    image: BBA,
     key: 1,
   },
   {
-    image: image2,
+    image: image,
     key: 2,
   },
   {
-    image: image,
+    image: ATC,
     key: 3,
   },
   {
-    image: image2,
+    image: PilotImage,
     key:4,
   },
   {
-    image: image,
+    image: CabinCrew,
     key:5,
   },
   {

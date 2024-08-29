@@ -28,7 +28,7 @@ function CraouslSlider({
       className="relative overflow-hidden w-full  sm:h-[400px] sm:w-[300px]
             md:h-[400px] md:w-[500px]
             lg:h-[600px] lg:w-[770px]
-            xl:h-[600px] xl:w-[1000px]  h-auto mx-auto"
+            xl:h-[600px] xl:w-[1000px]  h-auto mx-auto  border-blue-900 border-4 box-shadow "
     >
       <div
         className="flex"
@@ -43,7 +43,7 @@ function CraouslSlider({
             src={image}
             alt={`Slide ${index + 1}`}
             className="
-            w-full h-auto flex-shrink-0  border-blue-800 border-4
+            w-full h-auto flex-shrink-0 
             sm:h-[400px] sm:w-[300px]
             md:h-[400px] md:w-[500px]
             lg:h-[600px] lg:w-[770px]

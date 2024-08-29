@@ -1,6 +1,6 @@
 import React from "react";
-import sathm from "../assets/sathm_logo_without_background.png";
-import Devi_Ahilya_Vishwavidyalaya_Logo from "../assets/Devi_Ahilya_Vishwavidyalaya_Logo.png";
+import sathm from "../assets/Logo/sathm_logo_without_background.png";
+import Devi_Ahilya_Vishwavidyalaya_Logo from "../assets/Logo/Devi_Ahilya_Vishwavidyalaya_Logo.png";
 import { NavLink } from "react-router-dom";
 import { BsAirplaneFill } from "react-icons/bs";
 import { FaHome } from "react-icons/fa";
@@ -9,8 +9,8 @@ import { FaPeopleGroup } from "react-icons/fa6";
 import { FaHandshake } from "react-icons/fa";
 import { RxCross2 } from "react-icons/rx";
 import { FaIndustry } from "react-icons/fa";
-import image_bg from "../assets/image_bg.jpg";
-import Footers from "../Components/Footers";
+import image_bg3 from "../assets/Logo/image_bg3.jpg";
+import Footer from "../Components/Footer";
 
 //drawer
 import { styled, useTheme } from "@mui/material/styles";
@@ -30,6 +30,8 @@ import ListItem from "@mui/material/ListItem";
 import ListItemButton from "@mui/material/ListItemButton";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
+import { MdOutlineArrowDropDown } from "react-icons/md";
+import { MdArrowRight } from "react-icons/md";
 
 const drawerWidth = 250;
 
@@ -71,12 +73,14 @@ function HomeLayout({ children }) {
     setOpen(false);
   };
 
+  // const [isDropdownVisible, setDropdownVisible] = useState(false);
+  // const [isSubmenuVisible, setSubmenuVisible] = useState(false);
   return (
     <div>
       {/* Logo design and text design */}
       <div
-        className="flex flex-col items-center justify-center p-3 md:bg-gray-100 bg-cover "
-        style={{ backgroundImage: `url(${image_bg})` }}
+        className="flex flex-col items-center justify-center p-3  bg-cover "
+        style={{ backgroundImage: `url(${image_bg3})` }}
       >
         <div className="flex flex-col md:flex-row items-center justify-between w-full space-y-4 md:space-y-0  md:space-x-4 lg:space-x-8">
           {/* on medium size design */}
@@ -116,7 +120,7 @@ function HomeLayout({ children }) {
       {/* Navbar */}
       <div className="border  border-gray-400 "></div>
 
-      <div className="hidden md:flex items-center justify-evenly  bg-sky-600 py-4  text-white font-semibold lg:text-xl sm:sm:text-[15px] w-full  sticky top-0 z-10">
+      <div className="hidden md:flex items-center justify-evenly  bg-blue-900 py-4  text-white font-semibold lg:text-xl sm:sm:text-[15px] w-full  sticky top-0 z-10">
         <NavLink to="/" className="hover:underline">
           Home
         </NavLink>
@@ -148,7 +152,7 @@ function HomeLayout({ children }) {
           open={open}
           style={{
             backgroundColor: "transparent",
-            color:'#0707f7',
+            color: "#000033",
             boxShadow: "none",
             opacity: "initial",
           }}
@@ -268,7 +272,7 @@ function HomeLayout({ children }) {
       {children}
 
       {/* Footer import */}
-      <Footers />
+      <Footer />
     </div>
   );
 }

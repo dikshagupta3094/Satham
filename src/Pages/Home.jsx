@@ -1,10 +1,11 @@
 import React, { useEffect } from "react";
 import HomeLayout from "../Layout/HomeLayout";
-import bgHome from "../assets/bgHome.jpg";
-import bgHome1 from "../assets/bgHome1.png";
-import bgHome2 from "../assets/bgHome2.png";
-import bgHome3 from "../assets/bgHome3.png";
-import DirectorImg from "../assets/DirectorImg.jpg";
+// import bgHome from "../assets/bgHome.jpg";
+// import bgHome1 from "../assets/bgHome1.png";
+// import bgHome2 from "../assets/bgHome2.png";
+// import bgHome3 from "../assets/bgHome3.png";
+import bgHome4 from "../assets/Home/bgHome4.jpg";
+import DirectorImg from "../assets/Home/DirectorImg.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Images } from "../Constants/CraouselData";
@@ -21,10 +22,12 @@ function Home() {
   }, []);
   return (
     <HomeLayout>
-      <div className="bg-cover" style={{ backgroundImage: `url(${bgHome1})` }}>
+      {/* style={{ backgroundImage: `url(${bgHome1})` }} */}
+      {/* bg-gradient-to-r from-cyan-400 to-blue-400 */}
+      <div className="bg-cover" style={{ backgroundImage: `url(${bgHome4})` }} >
         <div className="flex flex-col items-center justify-center">
           <p
-            className="max-w-[900px] text-justify p-3 text-gray-700 font-semibold mt-4 box-shadow mb-4 "
+            className="max-w-[80%] text-justify p-3 text-gray-700 font-semibold mt-4 box-shadow mb-4 text-xl bg-white"
             data-aos="fade-down"
           >
             Aviation management is a department responsible for coordinating
@@ -61,7 +64,7 @@ function Home() {
 
                 {/* Director Description Section */}
                 <div
-                  className="w-full md:max-w-[700px] text-justify border shadow p-5 rounded-md bg-white leading-8 m-2 text-sm md:text-base"
+                  className="w-full md:max-w-[700px] text-justify border shadow p-5 rounded-md bg-white leading-8 m-2 text-sm md:text-base box-shadow"
                   data-aos="fade-zoom-in"
                 >
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
