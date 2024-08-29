@@ -135,16 +135,16 @@ function HomeLayout({ children }) {
         <MdOutlineArrowDropDown size={20}/>
         </button>
 
-        <NavLink to="/faculties" className="hover:underline">
+        <NavLink to="/faculties" className="hover:underline hover:text-blue-200 ">
           Faculties
         </NavLink>
-        <NavLink to="/events" className="hover:underline">
+        <NavLink to="/events" className="hover:underline hover:text-blue-200 ">
           Events & Activities
         </NavLink>
-        <NavLink to="/corporate_linkage" className="hover:underline">
+        <NavLink to="/corporate_linkage" className="hover:underline hover:text-blue-200 ">
           Corporate Linkages
         </NavLink>
-        <NavLink to="/mou" className="hover:underline">
+        <NavLink to="/mou" className="hover:underline hover:text-blue-200 ">
           MOUs
         </NavLink>
       </div>
