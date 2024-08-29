@@ -121,15 +121,20 @@ function HomeLayout({ children }) {
       <div className="border  border-gray-400 "></div>
 
       <div className="hidden md:flex items-center justify-evenly  bg-blue-900 py-4  text-white font-semibold lg:text-xl sm:sm:text-[15px] w-full  sticky top-0 z-10">
-        <NavLink to="/" className="hover:underline">
+        <NavLink to="/" className="hover:underline hover:text-blue-200 ">
           Home
         </NavLink>
-        <NavLink to="/about" className="hover:underline">
+        <NavLink to="/about" className="hover:underline hover:text-blue-200 ">
           About
         </NavLink>
-        <NavLink to="/academics" className="hover:underline">
+
+        <button className="flex items-center hover:underline hover:text-blue-200 ">
+        <NavLink to="/academics">
           Academics
         </NavLink>
+        <MdOutlineArrowDropDown size={20}/>
+        </button>
+
         <NavLink to="/faculties" className="hover:underline">
           Faculties
         </NavLink>
