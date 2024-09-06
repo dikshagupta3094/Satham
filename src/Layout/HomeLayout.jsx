@@ -32,6 +32,7 @@ import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import { MdOutlineArrowDropDown } from "react-icons/md";
 import { MdArrowRight } from "react-icons/md";
+import Navbar from "../Components/Navbar";
 
 const drawerWidth = 250;
 
@@ -120,34 +121,9 @@ function HomeLayout({ children }) {
       {/* Navbar */}
       <div className="border  border-gray-400 "></div>
 
-      <div className="hidden md:flex items-center justify-evenly  bg-blue-900 py-4  text-white font-semibold lg:text-xl sm:sm:text-[15px] w-full  sticky top-0 z-10">
-        <NavLink to="/" className="hover:underline hover:text-blue-200 ">
-          Home
-        </NavLink>
-        <NavLink to="/about" className="hover:underline hover:text-blue-200 ">
-          About
-        </NavLink>
-
-        <button className="flex items-center hover:underline hover:text-blue-200 ">
-        <NavLink to="/academics">
-          Academics
-        </NavLink>
-        <MdOutlineArrowDropDown size={20}/>
-        </button>
-
-        <NavLink to="/faculties" className="hover:underline hover:text-blue-200 ">
-          Faculties
-        </NavLink>
-        <NavLink to="/events" className="hover:underline hover:text-blue-200 ">
-          Events & Activities
-        </NavLink>
-        <NavLink to="/corporate_linkage" className="hover:underline hover:text-blue-200 ">
-          Corporate Linkages
-        </NavLink>
-        <NavLink to="/mou" className="hover:underline hover:text-blue-200 ">
-          MOUs
-        </NavLink>
-      </div>
+     <div>
+      <Navbar/>
+     </div>
 
       {/* Responsive navbar */}
       <Box className="flex md:hidden">

@@ -25,11 +25,7 @@ function CraouslSlider({
   }, []);
   return (
     <div
-      className="relative overflow-hidden w-full  sm:h-[400px] sm:w-[300px]
-            md:h-[400px] md:w-[500px]
-            lg:h-[600px] lg:w-[770px]
-            xl:h-[600px] xl:w-[1000px]  h-auto mx-auto  border-blue-900 border-4 box-shadow "
-    >
+      className="relative overflow-hidden w-full h-[700px] ">
       <div
         className="flex"
         style={{
@@ -43,12 +39,7 @@ function CraouslSlider({
             src={image}
             alt={`Slide ${index + 1}`}
             className="
-            w-full h-auto flex-shrink-0 
-            sm:h-[400px] sm:w-[300px]
-            md:h-[400px] md:w-[500px]
-            lg:h-[600px] lg:w-[770px]
-            xl:h-[600px] xl:w-[1000px]
-          "
+            w-full h-[700px] flex-shrink-0"
           />
         ))}
       </div>
@@ -86,3 +77,13 @@ function CraouslSlider({
 }
 
 export default CraouslSlider;
+
+// md:h-[400px] md:w-[500px]
+//              lg:h-[600px] lg:w-[770px]
+//             xl:h-[600px] xl:w-[1000px]  h-auto mx-auto  border-blue-900 border-4 box-shadow "
+
+// Images
+// sm:h-[400px] sm:w-[300px]
+// md:h-[400px] md:w-[500px]
+// lg:h-[600px] lg:w-[770px]
+// xl:h-[600px] xl:w-[1000px]
