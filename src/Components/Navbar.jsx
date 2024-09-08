@@ -3,7 +3,7 @@ import { MdOutlineArrowDropDown } from "react-icons/md";
 import { NavLink } from "react-router-dom";
 function Navbar() {
   return (
-    <div className="hidden md:flex items-center justify-evenly  bg-blue-900 py-4  text-white font-semibold lg:text-xl sm:sm:text-[15px] w-full  sticky top-0 z-10">
+    <div className="hidden md:flex items-center justify-evenly  bg-blue-900 py-4  text-white font-semibold lg:text-xl sm:sm:text-[15px] w-full">
       <NavLink to="/" className="hover:underline hover:text-blue-200 ">
         Home
       </NavLink>

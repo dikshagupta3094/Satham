@@ -25,7 +25,7 @@ function CraouslSlider({
   }, []);
   return (
     <div
-      className="relative overflow-hidden w-full h-[700px] ">
+      className="relative overflow-hidden w-full h-[700px] border-blue-950 border-4 rounded-lg">
       <div
         className="flex"
         style={{

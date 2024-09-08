@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import HomeLayout from "../Layout/HomeLayout";
-import bgHome4 from "../assets/Home/bgHome4.jpg";
+import bgHome4 from "../assets/Home/BackgroundImage.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Images } from "../Constants/CraouselData";
@@ -20,11 +20,11 @@ function Home() {
     <HomeLayout>
       {/* style={{ backgroundImage: `url(${bgHome1})` }} */}
       {/* bg-gradient-to-r from-cyan-400 to-blue-400 */}
-      <div className="bg-repeat" style={{ backgroundImage: `url(${bgHome4})` }}>
+      <div  style={{ backgroundImage: `url(${bgHome4})`, backgroundSize:'100%'}}>
         <div className="flex flex-col items-center justify-center">
           
           {/* Crasouel */}{" "}
-          <div>
+          <div className="m-1">
             <CraouslSlider images={Images.map((img) => img.image)} />
           </div>
 

@@ -121,7 +121,7 @@ function HomeLayout({ children }) {
       {/* Navbar */}
       <div className="border  border-gray-400 "></div>
 
-     <div>
+     <div className="sticky top-0 z-10">
       <Navbar/>
      </div>
 
