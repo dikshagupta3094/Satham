@@ -8,6 +8,7 @@ import CraouslSlider from "../Components/HomeComponent/CraouslSlider";
 import TrustedParnter from "../Components/HomeComponent/TrustedParnter";
 import { Slides } from "../Constants/TrustedPartner";
 import MsgDirector from "../Components/HomeComponent/MsgDirector";
+import Noticeboard from "../Components/HomeComponent/NoticeBoard";
 function Home() {
   useEffect(() => {
     AOS.init({
@@ -22,7 +23,16 @@ function Home() {
       {/* bg-gradient-to-r from-cyan-400 to-blue-400 */}
       <div  style={{ backgroundImage: `url(${bgHome4})`, backgroundSize:'100%'}}>
         <div className="flex flex-col items-center justify-center">
-          
+          {/* NoticeBoard */}{" "}
+          <div className="flex items-center justify-center gap-20 mb-10">
+            <div className="mx-20">
+              <Noticeboard/>
+            </div>
+            <div className="m-1">
+              <Noticeboard/>
+            </div>
+            </div>
+
           {/* Crasouel */}{" "}
           <div className="m-1">
             <CraouslSlider images={Images.map((img) => img.image)} />
