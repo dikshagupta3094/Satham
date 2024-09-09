@@ -25,7 +25,7 @@ function MsgDirector() {
           />
         </div>
         <div className=" w-[80%] ">
-          <p className="text-justify p-2 text-sm md:text-base lg:h-96 lg:overflow-clip">
+          <p className="text-justify pt-8 px-2 text-sm md:text-base lg:h-96 lg:overflow-clip">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus
             adipisci eius perspiciatis tenetur quam saepe iusto aliquid magni
             rerum, exercitationem maxime harum totam autem cum corporis
@@ -61,7 +61,7 @@ function MsgDirector() {
               </button>
             </NavLink>
           <p className="font-semibold text-xl">Dr. Preeti Singh</p>
-          <p className="font-semibold text-xl">
+          <p className="font-semibold text-xl pb-1">
             Director <span>SATHM</span>,DAVV
           </p>
         </div>
