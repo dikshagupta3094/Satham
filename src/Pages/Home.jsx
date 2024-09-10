@@ -25,7 +25,7 @@ function Home() {
         <div className="flex flex-col items-center justify-center">
           
           {/* Crasouel */}{" "}
-          <div className="m-1">
+          <div className="mx-5 mt-1">
             <CraouslSlider images={Images.map((img) => img.image)} />
           </div>
 
@@ -45,7 +45,7 @@ function Home() {
             <h1 className="text-center text-3xl text-shadow font-semibold text-gray-700 p-2 mt-6">
               Trusted Partners
             </h1>
-            <TrustedParnter slides={Slides.map((img) => img.slide)} />
+            {/* <TrustedParnter slides={Slides.map((img) => img.slide)} /> */}
           </div>
         </div>
       </div>

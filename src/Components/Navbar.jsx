@@ -1,5 +1,5 @@
 import React from "react";
-import { MdOutlineArrowDropDown } from "react-icons/md";
+import { MdArrowDropDown } from "react-icons/md";
 import { NavLink } from "react-router-dom";
 function Navbar() {
   return (
@@ -30,9 +30,13 @@ function Navbar() {
         Corporate Linkages
       </NavLink>
 
-      <NavLink to="/mou" className="hover:underline hover:text-blue-200 ">
-        MOUs
-      </NavLink>
+      <li className="list-none flex items-center justify-center gap-2">
+        {" "}
+        <NavLink to="/mou" className="hover:underline hover:text-blue-200 ">
+          MOUs
+        </NavLink>
+        <MdArrowDropDown />
+      </li>
     </div>
   );
 }
