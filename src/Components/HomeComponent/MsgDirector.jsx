@@ -12,8 +12,8 @@ function MsgDirector() {
     });
   }, []);
   return (
-    <div className="bg-white border-4 border-blue-950 mx-2 rounded-lg mt-16">
-      <h1 className="text-white text-center text-3xl p-4  font-bold bg-blue-900 text-shadow ">
+    <div className="bg-white border-4 border-blue-950 mx-4 rounded-lg mt-8" >
+      <h1 className="text-white text-center text-4xl p-4  font-bold bg-blue-900 text-shadow ">
         MEESAGE FROM DIRECTOR
       </h1>
       <div className="flex flex-col md:flex-col lg:flex-row items-center justify-center gap-10 mx-2 rounded-lg" data-aos="fade-up-right">

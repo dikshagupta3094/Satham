@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {
       screens: {
-        'sm-custom': '400px',  // Define a custom breakpoint at 473px
+        'sm-custom': '300px',  // Define a custom breakpoint at 400px
+        
       },
     },
   },

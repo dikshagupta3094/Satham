@@ -1,6 +1,9 @@
+const currentDate = new Date();
+const year = currentDate.getFullYear();
+
 export const Admission = [
     {name: 'Fees Structure', link: "#"},
-    {name: 'Admission 2024', link: "#"},
+    {name: `Admission ${year}`, link: "#"},
 ];
 
 export const Miscellaneous= [

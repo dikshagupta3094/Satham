@@ -25,7 +25,7 @@ function CraouslSlider({
   }, []);
   return (
     <div
-      className="relative overflow-hidden w-full md:h-[700px] sm:h-[500px] border-blue-950 border-4 rounded-lg">
+      className="relative overflow-hidden w-full md:h-[700px] sm:h-[500px] sm-custom:h-[300px] border-blue-950 border-4 rounded-lg">
       <div
         className="flex"
         style={{
@@ -40,7 +40,8 @@ function CraouslSlider({
             alt={`Slide ${index + 1}`}
             className="
             w-full md:h-[700px] flex-shrink-0
-            sm:h-[500px]"
+            sm:h-[500px]
+            sm-custom:h-[300px]"
           />
         ))}
       </div>

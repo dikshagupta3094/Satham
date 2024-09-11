@@ -13,13 +13,13 @@ function PradhanMantri() {
         });
     }, []);
     return (
-        <div className="bg-white border-2 box-shadow m-4 mt-8 border-blue-400 rounded-md p-4">
-            <h1 className="text-blue-900 text-center text-4xl p-4 border-b-4 font-bold text-shadow">
+        <div className="bg-white border-4 box-shadow m-4 mt-8 border-blue-950 rounded-lg">
+            <h1 className="text-white text-center text-4xl p-4  font-bold text-shadow bg-blue-950">
                 Pradhan Mantri Colleges of Excellence
             </h1>
-            <div className="flex flex-col md:flex-col lg:flex-row items-center justify-center gap-10  mx-2 rounded-lg">
-                <div className="lg:w-2/4 w-full">
-                    <p className="mb-2">
+            <div className="flex flex-col md:flex-col lg:flex-row items-center justify-center gap-10  mx-2 rounded-lg" data-aos="fade-up-left">
+                <div className="lg:w-2/4 w-full p-2">
+                    <p className="mb-2 text-justify">
                         Since July 2024, The Pradhan Mantri Colleges of Excellence aim
                         to provide holistic, quality, and employment-oriented education
                         in Madhya Pradesh. Principals and teachers are selected based on
@@ -30,7 +30,7 @@ function PradhanMantri() {
                         for 2232 new posts. As many as 1845 academic posts and 387 posts
                         for class III and IV categories were created for 55 colleges.
                     </p>
-                    <p>
+                    <p className="text-justify">
                         The Indian Knowledge System Cell is being established under the
                         National Education Policy-2020, providing access to traditional
                         Indian texts and educational resources. These colleges focus on
@@ -50,7 +50,7 @@ function PradhanMantri() {
                 <img
                     src={PMCollege2}
                     alt="Director Image"
-                    className="box-shadow transition-transform duration-300 ease-in-out transform hover:scale-110 ml-3 mt-3 rounded-md h-auto w-full "
+                    className="box-shadow transition-transform duration-300 ease-in-out transform hover:scale-110 ml-3 mt-3 rounded-md h-auto w-full pr-3"
                 />
                 </div>
             </div>
