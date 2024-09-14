@@ -14,10 +14,10 @@ function PradhanMantri() {
     }, []);
     return (
         <div className="bg-white border-4 box-shadow m-4 mt-8 border-blue-950 rounded-lg">
-            <h1 className="text-white text-center text-4xl p-4  font-bold text-shadow bg-blue-950">
+            <h1 className="text-white text-center text-4xl p-4  font-bold text-shadow bg-blue-900">
                 Pradhan Mantri Colleges of Excellence
             </h1>
-            <div className="flex flex-col md:flex-col lg:flex-row items-center justify-center gap-10  mx-2 rounded-lg" data-aos="fade-up-left">
+            <div className="flex flex-col md:flex-col lg:flex-row items-center justify-center gap-10  mx-2 rounded-lg"data-aos="fade-zoom-in">
                 <div className="lg:w-2/4 w-full p-2">
                     <p className="mb-2 text-justify">
                         Since July 2024, The Pradhan Mantri Colleges of Excellence aim
@@ -43,14 +43,14 @@ function PradhanMantri() {
                 <img
                     src={PMCollege1}
                     alt="Director Image"
-                    className="box-shadow transition-transform duration-300 ease-in-out transform hover:scale-110 ml-3 mt-3 rounded-md h-auto w-full "
+                    className="box-shadow transition-transform duration-300 ease-in-out transform hover:scale-110 ml-3 mt-3 mb-2 rounded-md h-auto w-full "
                 />
                 </div>
                 <div className="lg:w-[30%] flex justify-center">
                 <img
                     src={PMCollege2}
                     alt="Director Image"
-                    className="box-shadow transition-transform duration-300 ease-in-out transform hover:scale-110 ml-3 mt-3 rounded-md h-auto w-full pr-3"
+                    className="box-shadow transition-transform duration-300 ease-in-out transform hover:scale-110 ml-3 mt-3 mb-2 rounded-md h-auto w-full pr-3"
                 />
                 </div>
             </div>

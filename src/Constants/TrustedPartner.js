@@ -17,5 +17,21 @@ export const Slides = [
         slide :DABH,
         key:'4'
     },
-
+ 
+    {
+        slide :mpfc,
+        key:'5'
+    },
+    {
+        slide :DABH,
+        key:'6'
+    },
+    {
+        slide :mpfc,
+        key:'7'
+    },
+    {
+        slide :DABH,
+        key:'8'
+    },
 ]

@@ -42,10 +42,10 @@ function Home() {
 
           {/* Trusted Partner */}
           <div className="mt-4">
-            <h1 className="text-center text-3xl text-shadow font-semibold text-gray-700 p-2 mt-6">
+            <h1 className="text-center text-4xl text-shadow font-semibold text-gray-700 p-2 mt-6">
               Trusted Partners
             </h1>
-            {/* <TrustedParnter slides={Slides.map((img) => img.slide)} /> */}
+            <TrustedParnter slides={Slides.map((img) => img.slide)} />
           </div>
         </div>
       </div>
