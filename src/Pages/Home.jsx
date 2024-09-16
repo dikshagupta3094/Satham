@@ -9,6 +9,7 @@ import TrustedParnter from "../Components/HomeComponent/TrustedParnter";
 import { Slides } from "../Constants/TrustedPartner";
 import MsgDirector from "../Components/HomeComponent/MsgDirector";
 import Noticeboard from "../Components/HomeComponent/NoticeBoard";
+import AllCourses from "../Components/HomeComponent/CurrentCourses";
 function Home() {
   useEffect(() => {
     AOS.init({
@@ -24,14 +25,13 @@ function Home() {
       <div  style={{ backgroundImage: `url(${bgHome4})`, backgroundSize:'100%'}}>
         <div className="flex flex-col items-center justify-center">
           {/* NoticeBoard */}{" "}
-          <div className="flex items-center justify-center gap-20 mb-10">
-            <div className="mx-20">
-              <Noticeboard/>
-            </div>
-            <div className="m-1">
-              <Noticeboard/>
-            </div>
-            </div>
+
+              <Noticeboard />
+          
+          {/* Current Courses */}{" "}
+          <div className="my-5 box-shadow w-[75%]">
+            <AllCourses />
+          </div>
 
           {/* Crasouel */}{" "}
           <div className="m-1">
@@ -39,7 +39,7 @@ function Home() {
           </div>
 
           {/* Message from director */}
-          <div>
+          <div className="mt-10">
             <MsgDirector/>
           </div>
 
