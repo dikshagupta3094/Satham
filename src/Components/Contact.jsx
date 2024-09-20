@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React from "react";
 import { RxCross1 } from "react-icons/rx";
 function Contact({ onClose }) {
   return (
