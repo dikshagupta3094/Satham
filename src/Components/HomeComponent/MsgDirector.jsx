@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import DirectorImg from "../../assets/Home/DirectorImg.jpg";
+import DirectorImg from "../../assets/Home/DirectorImage.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { NavLink } from "react-router-dom";
@@ -9,23 +9,23 @@ function MsgDirector() {
       offset: 300,
       easing: "ease-in-sine",
       duration: 500,
-    });
+  });
   }, []);
   return (
-    <div className="bg-white border-4 border-blue-950 mx-2 rounded-md">
-      <h1 className="text-white text-center text-3xl p-4  font-bold bg-blue-900 text-shadow ">
+    <div className="bg-white border-4 border-blue-950 mx-4 rounded-lg mt-8" >
+      <h1 className="text-white text-center text-4xl p-4  font-bold bg-blue-900 text-shadow ">
         MEESAGE FROM DIRECTOR
       </h1>
-      <div className="flex flex-col md:flex-col lg:flex-row items-center justify-center gap-10  mx-2 rounded-lg">
-        <div className="lg:w-[30%] flex justify-center">
+      <div className="flex flex-col md:flex-col lg:flex-row items-center justify-center gap-10 mx-2 rounded-lg" data-aos="fade-zoom-in">
+        <div>
           <img
             src={DirectorImg}
             alt="Director Image"
-            className="box-shadow ml-3 mt-3 rounded-md h-auto w-full "
+            className="box-shadow m-3 rounded-lg h-[250px] w-[250px] md:h-[400px] md:w-[400px] sm-custom:h-[300px] sm-custom:w-[300px]"
           />
         </div>
-        <div className="lg:w-3/4 w-full">
-          <p className="text-justify ">
+        <div className=" w-[80%] ">
+          <p className="text-justify pt-8 px-2 text-sm md:text-base lg:h-96 lg:overflow-clip">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus
             adipisci eius perspiciatis tenetur quam saepe iusto aliquid magni
             rerum, exercitationem maxime harum totam autem cum corporis
@@ -50,24 +50,18 @@ function MsgDirector() {
             non laborum exercitationem porro saepe esse consequuntur nihil,
             voluptatibus unde minima voluptatem! Ab non eligendi id officiis
             natus dolorum distinctio nemo? Obcaecati error recusandae voluptas,
-            quidem dolorum quia maxime dignissimos necessitatibus, mollitia
             quaerat maiores. Adipisci necessitatibus tempore recusandae! Ipsa,
-            inventore, totam repudiandae quisquam voluptates voluptate corporis
-            ducimus hic amet officia saepe sunt rem iste ea maiores eveniet?
-            Asperiores eaque ex nobis nulla voluptas architecto laboriosam
-            tempore, distinctio quae. Sed, illo! Quos ab ea odio quas atque
-            iste, nihil placeat reprehenderit sunt! Autem aliquam fuga
-            perferendis harum eius assumenda expedita, aperiam corporis,
-            possimus voluptas molestias eos culpa quidem aliquid id consectetur,
-            atque vitae a neque aut officiis in illo? Architecto error non quas
-            eum accusantium nemo laborum corrupti officia mollitia beatae Lorem
-            ipsum dolor sit amet consectetur adipisicing elit. Quae, libero
             commodi illum saepe, autem atque numquam, quaerat dolores animi odio
             rerum fuga. Ipsam, tenetur! Itaque perspiciatis veniam deserunt sint
-            quae. <NavLink to='/directormsg'><button className=" text-blue-950 font-extrabold">Read more...</button></NavLink>
-          </p>  
+            quae.
+          </p>
+          <NavLink to="/directormsg">
+              <button className=" text-blue-950 font-extrabold">
+                Read more...
+              </button>
+            </NavLink>
           <p className="font-semibold text-xl">Dr. Preeti Singh</p>
-          <p className="font-semibold text-xl">
+          <p className="font-semibold text-xl pb-1">
             Director <span>SATHM</span>,DAVV
           </p>
         </div>

@@ -44,7 +44,7 @@ const SmallNoticeBoard=()=>{
 
   return (
     <div className=" box-shadow p-4 bg-white shadow-md rounded-lg">
-      <h2 className="text-xl font-bold text-amber-200 bg-blue-950 p-2 rounded-t-lg">
+      <h2 className="text-xl font-bold text-white bg-blue-900 p-2 rounded-t-lg">
         Notifications
       </h2>
       <div className="mt-4 space-y-4">
