@@ -15,7 +15,8 @@ function PradhanMantri() {
     return (
         <div className="bg-white border-4 box-shadow m-4 mt-8 border-blue-950 rounded-lg">
             <h1 className="text-white text-center text-4xl p-4  font-bold text-shadow bg-blue-900">
-                Pradhan Mantri Colleges of Excellence
+                {/* Pradhan Mantri Colleges of Excellence */}
+                PRADHAN MANTRI COLLEGES OF EXCELLENCE
             </h1>
             <div className="flex flex-col md:flex-col lg:flex-row items-center justify-center gap-10  mx-2 rounded-lg"data-aos="fade-zoom-in">
                 <div className="lg:w-2/4 w-full p-2">
