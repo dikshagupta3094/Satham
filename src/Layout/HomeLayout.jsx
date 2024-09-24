@@ -203,7 +203,7 @@ function HomeLayout({ children }) {
               </ListItem>
             </NavLink>
 
-            <NavLink to="/faculties" onClick={handleDrawerClose}>
+            <NavLink to="/" onClick={handleDrawerClose}>
               <ListItem disablePadding>
                 <ListItemButton>
                   <ListItemIcon>
@@ -214,7 +214,7 @@ function HomeLayout({ children }) {
               </ListItem>
             </NavLink>
 
-            <NavLink to="/events" onClick={handleDrawerClose}>
+            <NavLink to="/" onClick={handleDrawerClose}>
               <ListItem disablePadding>
                 <ListItemButton>
                   <ListItemIcon>
@@ -225,7 +225,7 @@ function HomeLayout({ children }) {
               </ListItem>
             </NavLink>
 
-            <NavLink to="/corporate_linkage" onClick={handleDrawerClose}>
+            <NavLink to="/" onClick={handleDrawerClose}>
               <ListItem disablePadding>
                 <ListItemButton>
                   <ListItemIcon>
@@ -236,7 +236,7 @@ function HomeLayout({ children }) {
               </ListItem>
             </NavLink>
 
-            <NavLink to="/mou">
+            <NavLink to="/">
               <ListItem disablePadding>
                 <ListItemButton>
                   <ListItemIcon>

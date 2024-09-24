@@ -10,23 +10,23 @@ function CourseCard({ course }) {
   };
   return (
     <div className="flex items-center justify-center">
-      <div className="flex flex-col items-center justify-center relative">
+      <div className="flex flex-col items-center justify-center relative ">
         <img
           src={course.image}
           alt="Image"
-          className="w-64 h-64 rounded-lg m-2 "
+          className="md:w-64 w-64 md:h-64 h-52 rounded-lg m-2 "
         />
         <div
           className="mb-5 flex items-center justify-center w-full bg-blue-900 hover:bg-blue-800 transition-all duration-300 ease-in-out  rounded-xl text-white gap-3 p-2"
           onClick={toogleMenu}
         >
-          <button className="text-xl font-semibold ">{course.name}</button>
+          <button className="md:text-xl text-base font-semibold w-auto">{course.name}</button>
           <button>
             <IoMdArrowDropdown size={30} />
           </button>
         </div>
         {dropdownnenu && (
-          <ul className="text-white min-w-fit absolute top-80 shadow-lg box-shadow">
+          <ul className="text-white min-w-fit absolute md:top-[95%] top-[92%] shadow-lg box-shadow md:z-0 z-10 md:gap-0 gap-10">
             {course.courseInfo.course.map((courseItem, index, id) => (
               
               <Link to={course.courseInfo.link[index]}>

@@ -22,10 +22,10 @@ function Home() {
       {/* style={{ backgroundImage: `url(${bgHome1})` }} */}
       {/* bg-gradient-to-r from-cyan-400 to-blue-400 */}
       <div  style={{ backgroundImage: `url(${bgHome4})`, backgroundSize:'100%'}}>
-        <div className="flex flex-col items-center justify-center">
+        <div className="flex flex-col items-center justify-center md:mx-32 mx-0">
           
           {/* Crasouel */}{" "}
-          <div className="mx-5 mt-1">
+          <div className="mx-5 mt-10">
             <CraouslSlider images={Images.map((img) => img.image)} />
           </div>
 

@@ -55,7 +55,7 @@ function MsgDirector() {
             rerum fuga. Ipsam, tenetur! Itaque perspiciatis veniam deserunt sint
             quae.
           </p>
-          <NavLink to="/directormsg">
+          <NavLink to="/about">
               <button className=" text-blue-950 font-extrabold">
                 Read more...
               </button>

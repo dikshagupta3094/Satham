@@ -9,6 +9,7 @@ let course = [
         courseInfo:{
             course:['Diploma in Aviation Security'],
             link:['#']
+            // content:"lorem ipsumm"
         },
         image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGheLhioz5jvKgLJN96kt9lqMXreVBdZMmJQ&s'
     },
@@ -19,7 +20,7 @@ let course = [
         // links:['https://www.amecet.in/bachelor-of-business-administration-bba-in-aviation-career-scope-opportunity.php','https://www.tcsc.edu.in/page/academics-undergraduate-programs-academics-bcom-retail-operations-academics/','#'],
         courseInfo:{
             course:['BBA (Aviation Management)', 'B.Com (Retail Operations)','B.Com (Logistics)','B.SC (Aviation Management)'],
-            link:['https://www.amecet.in/bachelor-of-business-administration-bba-in-aviation-career-scope-opportunity.php','https://www.tcsc.edu.in/page/academics-undergraduate-programs-academics-bcom-retail-operations-academics/','#'],
+            link:['#','#'],
         },
        image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9587Y9_BehpdG0nBAPy1ftvAY2qCfkfXTtQ&s'
     },

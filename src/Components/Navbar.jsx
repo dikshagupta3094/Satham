@@ -15,16 +15,16 @@ function Navbar() {
         Academics
       </NavLink>
 
-      <NavLink to="/faculties" className="hover:underline hover:text-blue-200 ">
+      <NavLink to="/" className="hover:underline hover:text-blue-200 ">
         Faculties
       </NavLink>
 
-      <NavLink to="/events" className="hover:underline hover:text-blue-200 ">
+      <NavLink to="/" className="hover:underline hover:text-blue-200 ">
         Events & Activities
       </NavLink>
 
       <NavLink
-        to="/corporate_linkage"
+        to="/"
         className="hover:underline hover:text-blue-200 "
       >
         Corporate Linkages
@@ -32,7 +32,7 @@ function Navbar() {
 
       <li className="list-none flex items-center justify-center gap-2">
         {" "}
-        <NavLink to="/mou" className="hover:underline hover:text-blue-200 ">
+        <NavLink to="/" className="hover:underline hover:text-blue-200 ">
           MOUs
         </NavLink>
         <MdArrowDropDown />

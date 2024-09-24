@@ -26,7 +26,7 @@ function About() {
             ment practices. 2. Certification: The AASSC and its training
             partners jointly certify successful candidates 38 Sector Skill
             Councils are registered with National Skill Development Corporation.
-            Over 5.2 million students are trained by NSDC.The role of AASSC is -
+            Over 5.2 million students are trained by NSDC.The role of AASSC is -
             1. National Occupational Standards: The AASSC develops National
             Occupational Standards (NOS) that define the performance outcomes
             required for a particular task. These standards are used as
@@ -34,7 +34,7 @@ function About() {
             practices. 2. Certification: The AASSC and its training partners
             jointly certify successful candidates 38 Sector Skill Councils are
             registered with National Skill Development Corporation. Over 5.2
-            million students are trained by NSDC.The role of AASSC is - 1.
+            million students are trained by NSDC.The role of AASSC is - 1.
             National Occupational Standards: The AASSC develops National
             Occupational Standards (NOS) that define the performance outcomes
             required for a particular task. These standards are used as
