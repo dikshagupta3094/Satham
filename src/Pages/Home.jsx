@@ -8,6 +8,8 @@ import CraouslSlider from "../Components/HomeComponent/CraouslSlider";
 import TrustedParnter from "../Components/HomeComponent/TrustedParnter";
 import { Slides } from "../Constants/TrustedPartner";
 import MsgDirector from "../Components/HomeComponent/MsgDirector";
+import Noticeboard from "../Components/HomeComponent/NoticeBoard";
+import AllCourses from "../Components/HomeComponent/CurrentCourses";
 import PradhanMantri from "../Components/HomeComponent/PradhanMantri";
 function Home() {
   useEffect(() => {
@@ -22,20 +24,28 @@ function Home() {
       {/* style={{ backgroundImage: `url(${bgHome1})` }} */}
       {/* bg-gradient-to-r from-cyan-400 to-blue-400 */}
       <div  style={{ backgroundImage: `url(${bgHome4})`, backgroundSize:'100%'}}>
-        <div className="flex flex-col items-center justify-center md:mx-32 mx-0">
-          
+        <div className="flex flex-col items-center justify-center">
+          {/* NoticeBoard */}{" "}
+
+              <Noticeboard />
+
           {/* Crasouel */}{" "}
-          <div className="mx-5 mt-10">
-            <CraouslSlider images={Images.map((img) => img.image)} />
+          <div className="mx-5 mt-1 w-[75%]">
+            <CraouslSlider images={Images.map((img) => 
+              img.image  
+            )} key={Images.map((img)=>(img.id))} />
+            {/* {Images &&Images.map((img)=>(
+              <CraouslSlider key={img.id} images={img.image}/>
+            ))} */}
           </div>
 
           {/* Message from director */}
-          <div>
+          <div className="mt-10 w-[75%]">
             <MsgDirector/>
           </div>
 
           {/* Excellence */}
-          <div>
+          <div className="w-[75%]">
             
             <PradhanMantri/>
           </div>

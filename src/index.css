@@ -16,6 +16,10 @@
   text-shadow: 1.5px 1.5px #69b3d1;
 }
 
+.text-shadow1 {
+  text-shadow: 2px 2px rgb(202, 201, 201);
+}
+
 .slide-tracker {
   width: calc(250px * 4);
   animation: scroll 20s linear infinite;

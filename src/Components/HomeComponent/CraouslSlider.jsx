@@ -80,12 +80,3 @@ function CraouslSlider({
 
 export default CraouslSlider;
 
-// md:h-[400px] md:w-[500px]
-//              lg:h-[600px] lg:w-[770px]
-//             xl:h-[600px] xl:w-[1000px]  h-auto mx-auto  border-blue-900 border-4 box-shadow "
-
-// Images
-// sm:h-[400px] sm:w-[300px]
-// md:h-[400px] md:w-[500px]
-// lg:h-[600px] lg:w-[770px]
-// xl:h-[600px] xl:w-[1000px]

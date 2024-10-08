@@ -6,33 +6,34 @@ import Img4 from '../assets/Crasouel/Img4.jpg'
 import Img5 from '../assets/Crasouel/Img5.jpg'
 import Img6 from '../assets/Crasouel/Img6.jpg'
 import BBA from '../assets/Crasouel/BBA.jpg'
+import { nanoid } from 'nanoid'
 export const Images = [
-  {
-    image: Img1,
-    key: 1,
-  },
+  // {
+  //   image: Img1,
+  //   id: nanoid(),
+  // },
   {
     image: Img2,
-    key: 2,
+    id: nanoid(),
   },
   {
     image: Img3,
-    key: 3,
+    id: nanoid(),
   },
   {
     image: Img4,
-    key:4,
+    id: nanoid(),
   },
   {
     image: Img5,
-    key:5,
+    id: nanoid(),
   },
   {
     image: Img6,
-    key:6,
+    id: nanoid(),
   },
   {
     image: BBA,
-    key:6,
+    id: nanoid(),
   },
 ];

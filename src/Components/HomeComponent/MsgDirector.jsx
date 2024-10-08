@@ -26,42 +26,19 @@ function MsgDirector() {
         </div>
         <div className=" w-[80%] ">
           <p className="text-justify pt-8 px-2 text-sm md:text-base lg:h-96 lg:overflow-clip">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus
-            adipisci eius perspiciatis tenetur quam saepe iusto aliquid magni
-            rerum, exercitationem maxime harum totam autem cum corporis
-            similique illum aspernatur, repellat ex dolore unde. Veniam
-            perferendis modi amet voluptas eligendi distinctio ratione
-            similique, alias doloremque, explicabo dolor asperiores iure, sed
-            doloribus corrupti vitae. Illum eveniet laboriosam voluptatem,
-            aspernatur tempore a, natus omnis consequuntur maiores
-            exercitationem fugiat consectetur unde, explicabo possimus odit
-            eaque aliquam suscipit adipisci ab quae temporibus minus amet
-            deserunt? Magnam eos itaque unde excepturi necessitatibus molestiae
-            ab repellendus, eveniet quasi soluta ea architecto id, quam eum
-            corrupti quos impedit! Lorem ipsum dolor sit amet consectetur,
-            adipisicing elit. Dolor est explicabo eius repellendus et, enim a
-            praesentium nisi sit repudiandae suscipit assumenda? Error, eveniet?
-            Nemo, autem distinctio laboriosam sequi quam voluptates magnam quae
-            dignissimos omnis facilis pariatur hic temporibus asperiores qui!
-            Totam delectus blanditiis quas, ab, similique esse illum commodi
-            eaque quis libero velit molestias, ad magni provident a quaerat
-            animi. Officia, commodi placeat maiores repellat vero non culpa.
-            Modi sunt animi quae, delectus libero nemo, ullam aliquid fuga nisi
-            non laborum exercitationem porro saepe esse consequuntur nihil,
-            voluptatibus unde minima voluptatem! Ab non eligendi id officiis
-            natus dolorum distinctio nemo? Obcaecati error recusandae voluptas,
-            quaerat maiores. Adipisci necessitatibus tempore recusandae! Ipsa,
-            commodi illum saepe, autem atque numquam, quaerat dolores animi odio
-            rerum fuga. Ipsam, tenetur! Itaque perspiciatis veniam deserunt sint
-            quae.
+          I welcome you on behalf of School Of Tourism, Aviation And Hospitality Management(SATHM), DAVV, which is a premiere department of central India recently opened on 22July’24. The department provides high-quality education in the field of aviation, tourism and hospitality management. The department is equipped with a mix of young and experienced professionals, industry experts with in-depth knowledge and expertise in subject area. The department will soon churn out enthusiastic and efficient young professionals as per the need of Aviation, Tourism and Hospitality industry market.  We provide holistic development of student by giving them a platform to participate in inter college activities like sports, cultural clubs, community services, field visit etc for greater academic achievement. We would expect that you venture beyond your “Comfort Zones” both inside and outside the classrooms. Take maximum advantage of facilities, participate fully and evolve into ‘Brand Yourself’.
+          <p>
+          I thank you for showing your interest in SATHM which means a family and by joining SATHM , you are embarking on an education system that is meant to be transformative – academically, socially, morally and personally. As “Excellence and Values” are our guiding principles which are reflected in every activity of our Department so we believe in a well-rounded and all-pervasive student experience to maximize learning opportunities. Through the efforts of our accomplished faculty, our talented students and exceptional alumini , we have been able to make rapid progress on our path of continuous growth and innovation.
+          
+          </p>
           </p>
           <NavLink to="/about">
               <button className=" text-blue-950 font-extrabold">
                 Read more...
               </button>
             </NavLink>
-          <p className="font-semibold text-xl">Dr. Preeti Singh</p>
-          <p className="font-semibold text-xl pb-1">
+          <p className="font-semibold text-[18px] text-shadow1">Dr. Preeti Singh</p>
+          <p className="font-semibold text-[18px] pb-1 text-shadow1">
             Director <span>SATHM</span>,DAVV
           </p>
         </div>

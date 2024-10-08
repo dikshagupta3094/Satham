@@ -2,7 +2,7 @@ const currentDate = new Date();
 const year = currentDate.getFullYear();
 
 export const Admission = [
-  { name: "Fees Structure", link: "#" },
+  { name: "Fees Structure", link: '/allCourses' },
   { name: `Admission ${year}`, link: "#" },
 ];
 

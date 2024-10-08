@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { IoMdArrowDropdown } from "react-icons/io";
-
+import { IoMdArrowDropup } from "react-icons/io";
 function CourseCard({ course }) {
   const [dropdownnenu, setDropDownmenu] = useState(false);
 
@@ -22,7 +22,8 @@ function CourseCard({ course }) {
         >
           <button className="md:text-xl text-base font-semibold w-auto">{course.name}</button>
           <button>
-            <IoMdArrowDropdown size={30} />
+            {dropdownnenu==true ?(<IoMdArrowDropup size={30}/>):
+              (<IoMdArrowDropdown size={30} />)}
           </button>
         </div>
         {dropdownnenu && (
