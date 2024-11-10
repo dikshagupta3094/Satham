@@ -1,3 +1,4 @@
+
 const currentDate = new Date();
 const year = currentDate.getFullYear();
 
@@ -19,8 +20,9 @@ export const Downloads = [
   { name: "Academic Calendar", link: "#" },
   {
     name: "Syllabus",
-    link: "Syllabus/BComSyllabus.zip",
-    isDownload: true,
+    // link: "Syllabus/BComSyllabus.zip",
+    link:"/syllabus",
+    // isDownload: true,
   },
 ];
 
